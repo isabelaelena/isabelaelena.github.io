@@ -1,2 +1,2 @@
 # imtryingok
-learning how to code and use git (purwadhika)
+learning how to code and use git
