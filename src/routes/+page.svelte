@@ -38,7 +38,7 @@
 
 	<h2 class="font-bold">works & projects</h2>
 
-	<div class="relative max-w-full">
+	<div class="relative max-w-full pt-4">
 		<div class="flex space-x-2 overflow-x-auto">
 			<div class="inline-block min-h-40 min-w-40 bg-gray-200"></div>
 			<div class="inline-block min-h-40 min-w-40 bg-gray-200"></div>
