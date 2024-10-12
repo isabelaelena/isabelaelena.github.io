@@ -60,7 +60,7 @@
 	<ul>
 		<li><a href="mailto:isabelaelenang@gmail.com">Email</a></li>
 		<!-- TODO -->
-		<li><a href="#">LinkedIn</a></li>
+		<li><a href="https://www.linkedin.com/in/isabelaelena/">LinkedIn</a></li>
 	</ul>
 </div>
 
