@@ -106,13 +106,13 @@
     <table class="pt-4">
         <tr>
             <td>
-                <video class="p-2" src="/works_duanyam_asiangames_bookmark.mp4" autoplay muted loop playsinline alt="Asian Games Bookmark"></video>
+                <video class="p-2" src="/works_duanyam_asiangames_bookmark.mp4" autoplay muted loop playsinline></video>
             </td>
             <td>
-                <video class="p-2" src="/works_duanyam_asiangames_hat.mp4" autoplay muted loop playsinline alt="Asian Games Hat"></video>
+                <video class="p-2" src="/works_duanyam_asiangames_hat.mp4" autoplay muted loop playsinline></video>
             </td>
             <td>
-                <video class="p-2" src="/works_duanyam_asiangames_tote.mp4" autoplay muted loop playsinline alt="Asian Games Tote Bag"></video>
+                <video class="p-2" src="/works_duanyam_asiangames_tote.mp4" autoplay muted loop playsinline></video>
             </td>
         </tr>
     </table>
