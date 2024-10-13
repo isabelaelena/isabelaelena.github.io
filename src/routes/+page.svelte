@@ -2,6 +2,9 @@
 	import Banner from '$lib/elena.svelte';
 </script>
 
+<page id="home">
+
+
 <div class="mx-auto max-w-screen-md pb-72">
 	<div class="flex space-x-4">
 		<div class="flex flex-col place-content-center">
@@ -73,3 +76,5 @@
 		@apply pt-4;
 	}
 </style>
+
+</page>

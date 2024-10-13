@@ -9,4 +9,7 @@
 	<a href="#contact" class="px-2">Contact</a>
 </nav>
 
-<slot />
+<div class="mx-auto max-w-screen-md">
+	<slot />
+</div>
+
