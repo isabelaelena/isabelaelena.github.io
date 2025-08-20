@@ -11,7 +11,7 @@
     <ul class="hidden w-full justify-end space-x-8 md:flex">
       <li class="mr-auto"><a href="/home" class="font-bold">Elena Ng</a></li>
       <li><a href="/works/duanyam" class="hover:italic">Work</a></li>
-      <li><a href="#about" class="hover:italic">About</a></li>
+      <!-- <li><a href="#about" class="hover:italic">About</a></li> -->
       <li><a href="#contact" class="hover:italic">Contact</a></li>
     </ul>
   </div>
