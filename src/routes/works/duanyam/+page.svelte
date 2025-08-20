@@ -20,7 +20,7 @@
     </div>
 
     <div>
-        <h1 class="font-extrabold pt-8">
+        <h1 class="text-4xl font-extrabold pt-8">
             Du'Anyam
         </h1>
         <p>
@@ -33,7 +33,7 @@
     </div>
 
     <div class="pt-6">
-        <h2 class="font-bold">OVERVIEW</h2>
+        <h2 class="text-xl font-bold">OVERVIEW</h2>
         <p class="pt-4">
             <a href="https://duanyam.com/en/about-us/"><b class="hover:italic">Du'Anyam</b></a> is a social enterprise that works closely with the talented women (Ibu) of Flores, East Nusa Tenggara, to create wicker products using the most authentic craftsmanship. With the goal of economically empowering these women and improving their health in rural areas across Indonesia, Du’Anyam is built on three pillars: Empower Women, Promote Culture, and Improve Livelihood.
         </p>
@@ -47,12 +47,12 @@
     </div>
 
 
-    <h2 class="font-bold pt-6">GLIMPSE OF THE DESIGN PROCESS</h2>
+    <h2 class="text-xl font-bold pt-6">GLIMPSE OF THE DESIGN PROCESS</h2>
     <p class="pt-4">
         As a Product Designer, it's important to understand how a product is made from start to finish, even if not every step is covered; so I visited the Manufacturing Center in Jakarta, where I met with Du’Anyam's in-house tailors and observed how materials (this includes processed wickers from Ibus) are transformed into finished products.
     </p>
 
-    <h2 class="font-bold pt-4">MATERIAL STUDY</h2>
+    <h2 class="text-lg font-bold pt-4">Material Study</h2>
     <img class="pt-4" src="/works_duanyam_materialstudy.png" alt="Material Study">
 
     <h2 class="font-bold pt-4">IDEATION & DUMMIES</h2>

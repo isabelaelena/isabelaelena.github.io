@@ -56,15 +56,7 @@
 		></div>
 	</div>
 
-	<!-- TODO -->
-
-	<h2 class="font-bold" id="contact">have coffee with me ☕️</h2>
-
-	<ul>
-		<li><a href="mailto:isabelaelenang@gmail.com">Email</a></li>
-		<!-- TODO -->
-		<li><a href="https://www.linkedin.com/in/isabelaelena/">LinkedIn</a></li>
-	</ul>
+	
 </div>
 
 <style lang="postcss">
