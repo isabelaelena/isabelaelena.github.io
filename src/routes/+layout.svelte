@@ -1,43 +1,69 @@
 <script>
-    import { redirect } from '@sveltejs/kit';
-	import '../app.css';
+  import { redirect } from "@sveltejs/kit";
+  import "../app.css";
 </script>
 
-<style>
-	html {
-		scroll-behavior: smooth;
-	}
-
-	hr {
-		border: 1.25px solid maroon;
-		width: 100vw;
-	}
-</style>
-
-<nav class="mx-auto flex max-w-screen-md py-6 uppercase">
-	<a href="#home" class="flex-1 font-bold capitalize">Isabela Elena</a>
-	<a href="#about" class="px-2">About</a>
-	<a href="#works" class="px-2">Works</a>
-	<a href="#contact" class="px-2">Contact</a>
+<nav
+  class="sticky top-0 z-20 w-full border-b bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/60"
+>
+  <div class="padding">
+    <!-- desktop (equal-width items across the full bar) -->
+    <ul class="hidden w-full justify-end space-x-8 md:flex">
+      <li class="mr-auto"><a href="/home" class="font-bold">Elena Ng</a></li>
+      <li><a href="/works/duanyam" class="hover:italic">Work</a></li>
+      <li><a href="#about" class="hover:italic">About</a></li>
+      <li><a href="#contact" class="hover:italic">Contact</a></li>
+    </ul>
+  </div>
 </nav>
 
-<div class="mx-auto max-w-screen-md text-base/7">
-	<slot />
+<div class="text-base/7">
+  <slot />
 
-<div id="contact">
-	<footer>
-		<hr>
-		<h3 id="contact">have coffee with me ☕️</h3>
-	
-		<ul>
-			<li><a href="mailto:isabelaelenang@gmail.com">Email</a></li>
-	
-			<li><a href="https://www.linkedin.com/in/isabelaelena/">LinkedIn</a></li>
-		</ul>
-	</footer>
+  <div id="contact">
+    <footer class="w-full border-t border-grey-300">
+      <div class="padding pt-8 pb-6">
+        <ul class="hidden w-full space-x-12 md:flex">
+          <li>
+            <h3>Grab coffee with me!</h3>
+            </li>
+              <li>
+                ☕️
+              </li>
+          <li>
+            <a href="mailto:isabelaelenang@gmail.com" class="text-lg">Email</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/isabelaelena/" class="text-lg">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
 </div>
 
+<style>
+  nav ul {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 
+  nav ul li {
+    flex: 1; /* each list item takes up equal space */
+    text-align: right; /* center the link text */
+    font-size: 1.5rem;
+  }
 
+  nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 1rem 0; /* make the clickable area tall */
+  }
 
-</div>
+  nav ul li:first-child a {
+    text-align: left;
+  }
+</style>
