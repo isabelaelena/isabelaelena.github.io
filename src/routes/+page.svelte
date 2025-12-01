@@ -20,7 +20,7 @@
         </p>
       </body>
       <div class="mt-6 flex items-center">
-        <a href="https://docs.google.com/document/d/1_D_RsFurP79CagVsEI5k12oEKSLORnerFzmg0Kvbyfg/edit?usp=sharing" class="hover:italic">Download my resume 〉</a>
+        <a href="/resume.pdf" class="hover:italic">Download my resume 〉</a>
       </div>
       <!-- <div class="mt-4 flex items-center">
         <a href="/resume.pdf" class="hover:italic">Get to know me 〉</a>
