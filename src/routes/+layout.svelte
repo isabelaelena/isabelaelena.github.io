@@ -9,9 +9,9 @@
   <div class="padding">
     <!-- desktop (equal-width items across the full bar) -->
     <ul class="hidden w-full justify-end space-x-8 md:flex">
-      <li class="mr-auto"><class="font-bold">Elena Ng</a></li>
-      <li><class="hover:italic">Work</a></li>
-      <li><class="hover:italic">Contact</a></li>
+      <li class="mr-auto">Elena Ng</li>
+      <li>Work</li>
+      <li>Contact</li>
     </ul>
   </div>
 </nav>
