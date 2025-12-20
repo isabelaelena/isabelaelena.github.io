@@ -33,7 +33,7 @@
 </section>
 
 <!-- WORKS / PROJECTS -->
-<section class="padding">
+<section class="padding" id="works">
   <div class="pt-12">
     <h2>Works & Projects</h2>
       <div class="grid grid-cols-3 gap-4 pt-2 pb-12">
