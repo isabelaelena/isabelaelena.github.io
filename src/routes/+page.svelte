@@ -37,9 +37,9 @@
   <div class="pt-12">
     <h2>Works & Projects</h2>
       <div class="grid grid-cols-3 gap-4 pt-2 pb-12">
-        <a href="/src/routes/works/duanyam/+page.svelte" class="card">Du'Anyam: Design Showcase</a>
-        <a href="/src/routes/works/siklus/+page.svelte" class="card">Siklus Refill: Showcase</a>
-        <a href="/src/routes/works/canadagoose/+page.svelte" class="card">Canada Goose: Case Study</a>
+        <a href="/works/duanyam" class="card">Du'Anyam: Design Showcase</a>
+        <a href="/works/siklus" class="card">Siklus Refill: Showcase</a>
+        <a href="/works/canadagoose" class="card">Canada Goose: Case Study</a>
         <!-- <a class="card">Spotify Case: Study</a> -->
       </div>
   </div>
