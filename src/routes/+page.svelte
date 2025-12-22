@@ -36,7 +36,7 @@
 <section class="padding" id="works">
   <div class="pt-12">
     <h2>Works & Projects</h2>
-      <div class="grid grid-cols-3 gap-4 pt-2 pb-12">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-2 pb-12">
         <a href="/works/duanyam" class="card">Du'Anyam: Design Showcase</a>
         <a href="/works/siklus" class="card">Siklus Refill: Showcase</a>
         <a href="/works/canadagoose" class="card">Canada Goose: Case Study</a>

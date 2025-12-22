@@ -9,9 +9,9 @@
   <div class="padding">
     <!-- desktop (equal-width items across the full bar) -->
     <ul class="hidden w-full justify-end space-x-8 md:flex">
-      <li class="mr-auto">Elena Ng</li>
-      <li>Work</li>
-      <li>Contact</li>
+      <li class="mr-auto"><a href="/">Elena</a></li>
+      <li><a href="/#works">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -22,7 +22,7 @@
   <div id="contact">
     <footer class="w-full border-t border-grey-300">
       <div class="padding pt-8 pb-6">
-        <ul class="hidden w-full space-x-12 md:flex">
+        <ul class="w-full space-x-12 flex">
           <li>
             <h3>Grab coffee with me!</h3>
             </li>
