@@ -1,9 +1,7 @@
 <main>
       <iframe
-    class="embed-full"
+    class="h-[83vh] w-full"
     src="https://western-dew-676.notion.site/ebd/25468aef27018023b2a8f7a3db6b348d"
-    width="90%"
-    height="600"
     frameborder="0"
     allowfullscreen
     />
