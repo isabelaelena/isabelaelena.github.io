@@ -7,7 +7,7 @@
 
 </style>
 
-<svg width="399" height="558" viewBox="0 0 399 558" preserveAspectRatio="xMinYMin meet" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 399 558" preserveAspectRatio="xMinYMin slice" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<path
 		d="M163.751 137.395C164.142 147.57 169.852 157.068 173.917 166.011C177.38 173.629 181.01 179.67 188.3 184.309C201.126 192.471 214.784 198.391 230.169 198.391C248.359 198.391 259.592 185.151 272.188 173.955C284.947 162.614 284.387 146.281 284.387 130.618"
 		stroke="black"

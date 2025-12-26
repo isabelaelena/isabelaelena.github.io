@@ -6,10 +6,7 @@
 <section id="home" class="flex items-center justify-center">
   <div class="padding grid items-center md:grid-cols-2">
     <div>
-      <div>
-        <span>📍</span>
-        <span class="text-gray-500">Toronto, Canada</span>
-      </div>
+      <span class="text-gray-600">📍 Toronto, Canada</span>
       <h1 class="pt-6">
         Advocating progress through technology and innovation
       </h1>
@@ -26,7 +23,7 @@
         <a href="/resume.pdf" class="hover:italic">Get to know me 〉</a>
       </div> -->
     </div>
-    <div class="flex justify-center pt-6 px-14">
+    <div class="hidden justify-center px-14 pt-6 md:flex">
       <Banner />
     </div>
   </div>
@@ -36,11 +33,54 @@
 <section class="padding" id="works">
   <div class="pt-12">
     <h2>Works & Projects</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-2 pb-12">
-        <a href="/works/duanyam" class="card">Du'Anyam: Design Showcase</a>
-        <a href="/works/siklus" class="card">Siklus Refill: Showcase</a>
-        <a href="/works/canadagoose" class="card">Canada Goose: Case Study</a>
-        <!-- <a class="card">Spotify Case: Study</a> -->
-      </div>
+    <div
+      class="grid grid-cols-1 gap-4 pb-12 pt-2 sm:grid-cols-2 md:grid-cols-3"
+    >
+      <a href="/works/duanyam" class="card">
+        <div class="card-content">
+          <div class="card-meta">
+            <span class="card-tag">Design</span>
+            <span class="card-tag">2018</span>
+          </div>
+        </div>
+
+        <h3 class="card-title">Du'Anyam: Design Showcase</h3>
+        <p class="card-desc">
+          Social enterprise design system exploring ethical production and
+          craft.
+        </p>
+      </a>
+
+      <a href="/works/siklus" class="card">
+        <div class="card-content">
+          <div class="card-meta">
+            <span class="card-tag">Product Management</span>
+            <span class="card-tag">2021</span>
+          </div>
+        </div>
+
+        <h3 class="card-title">Siklus Refill: Showcase</h3>
+        <p class="card-desc">
+          Social enterprise design system exploring ethical production and
+          craft.
+        </p>
+      </a>
+
+      <a href="/works/canadagoose" class="card">
+        <div class="card-content">
+          <div class="card-meta">
+            <span class="card-tag">Case Study</span>
+            <span class="card-tag">2022</span>
+          </div>
+        </div>
+
+        <h3 class="card-title">Canada Goose: Case Study</h3>
+        <p class="card-desc">
+          Social enterprise design system exploring ethical production and
+          craft.
+        </p>
+      </a>
+
+    </div>
   </div>
 </section>

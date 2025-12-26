@@ -58,10 +58,45 @@ h3 {
 }
 
 .card {
-  @apply flex h-40 items-start rounded-lg border p-4 text-left;
+  @apply flex flex-col rounded-lg border p-4 text-left h-auto md:h-40;
   font-family: var(--font-b);
   font-weight: 400;
-  font-size: 18px; /* exact */
-  line-height: 1.5; /* exact */
+  font-size: 18px;
+  line-height: 1.5;
   margin: 0;
+}
+
+.card-content {
+  @apply w-full;
+}
+
+.card-tag {
+  @apply text-gray-600 uppercase;
+  font-size: 12px;
+  line-height: 2.5;
+  letter-spacing: 0.04em;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+}
+
+.card-meta {
+  @apply flex items-center justify-between;
+}
+
+.card-year {
+  @apply text-gray-400;
+  font-size: 13px;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+.card-desc {
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
 }
