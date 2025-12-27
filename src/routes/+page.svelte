@@ -35,6 +35,36 @@
     <h2>Works & Projects</h2>
     <div
       class="grid grid-cols-1 gap-4 pb-12 pt-2 sm:grid-cols-2 md:grid-cols-3">
+
+      <a href="/works/canadagoose" class="card">
+        <div class="card-content">
+          <div class="card-meta">
+            <span class="card-tag">Strategy</span>
+            <span class="card-tag">2022</span>
+          </div>
+        </div>
+
+        <h3 class="card-title">Canada Goose: Case Study</h3>
+        <p class="card-desc">
+          Analysis of short and long term growth for Canada Goose; balancing brand equity, expansion strategy, and operational risks.
+        </p>
+      </a>
+
+
+            <a href="/works/siklus" class="card">
+        <div class="card-content">
+          <div class="card-meta">
+            <span class="card-tag">Product Management</span>
+            <span class="card-tag">2021</span>
+          </div>
+        </div>
+
+        <h3 class="card-title">Siklus Refill: Showcase</h3>
+        <p class="card-desc">
+          A 0→1 mobile app experience and business operations to deliver affordable FMCG access for bottom-of-the-pyramid communities.
+      </a>
+
+
       <a href="/works/duanyam" class="card">
         <div class="card-content">
           <div class="card-meta">
@@ -49,32 +79,7 @@
         </p>
       </a>
 
-      <a href="/works/siklus" class="card">
-        <div class="card-content">
-          <div class="card-meta">
-            <span class="card-tag">Product Management</span>
-            <span class="card-tag">2021</span>
-          </div>
-        </div>
 
-        <h3 class="card-title">Siklus Refill: Showcase</h3>
-        <p class="card-desc">
-          A 0→1 mobile app experience and business operations to deliver affordable FMCG access for bottom-of-the-pyramid communities.
-      </a>
-
-      <a href="/works/canadagoose" class="card">
-        <div class="card-content">
-          <div class="card-meta">
-            <span class="card-tag">Strategy</span>
-            <span class="card-tag">2022</span>
-          </div>
-        </div>
-
-        <h3 class="card-title">Canada Goose: Case Study</h3>
-        <p class="card-desc">
-          Strategic management analysis of short and long term growth decisions for Canada Goose; balancing brand equity, expansion strategy, and operational risks.
-        </p>
-      </a>
 
     </div>
   </div>

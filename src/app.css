@@ -107,3 +107,84 @@ p {
   line-height: 1.4;
   letter-spacing: 0.015em;
 }
+
+  nav ul {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav ul li {
+    flex: 1; /* each list item takes up equal space */
+    text-align: right; /* center the link text */
+    font-size: 1.5rem;
+  }
+
+  nav ul li a {
+    display: block;
+    width: 100%;
+    padding: 1rem 0; /* make the clickable area tall */
+  }
+
+  nav ul li:first-child a {
+    text-align: left;
+  }
+
+  /* Footer shell */
+.footer {
+  width: 100%;
+  border-top: 1px solid #d1d5db; /* grey-300 */
+}
+
+/* Inner spacing */
+.footer-inner {
+  padding-top: 2rem;  /* pt-8 */
+  padding-bottom: 1.5rem; /* pb-6 */
+}
+
+/* Footer list layout */
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem; /* mobile spacing */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+  .footer-list {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem; /* space-x-12 */
+    text-align: left;
+  }
+}
+
+/* Coffee row */
+.footer-coffee {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Footer links */
+.footer-link {
+  font-size: 18px; /* text-lg */
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-link:hover {
+  font-style: italic;
+}
+
+.coffee {
+  margin-left:1rem;
+}
