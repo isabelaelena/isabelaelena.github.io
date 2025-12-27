@@ -3,7 +3,7 @@
 </script>
 
 <nav
-  class="sticky top-0 z-20 w-full border-b bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+class="sticky top-0 z-20 w-full border-b bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/60">
   <div class="padding">
     <ul class="w-full justify-end space-x-8 md:flex">
       <li class="mr-auto"><a href="/"><strong>Elena</strong></a></li>
@@ -13,7 +13,8 @@
   </div>
 </nav>
 
-<div class="text-base/7">
+
+<div class="text-base/7 pt-10 md:pt-0">
   <slot />
 
   <div id="contact">

@@ -36,6 +36,23 @@
     <div
       class="grid grid-cols-1 gap-4 pb-12 pt-2 sm:grid-cols-2 md:grid-cols-3">
 
+<!-- to add a card, copy starting here -->
+      <a href="/works/canadagoose" class="card">
+        <div class="card-content">
+          <div class="card-meta">
+            <span class="card-tag">AI Experiment</span>
+            <span class="card-tag">2025</span>
+          </div>
+        </div>
+
+        <h3 class="card-title">Personal Finance: Auto Categorization</h3>
+        <p class="card-desc">
+          Analysis of short and long term growth for Canada Goose; balancing brand equity, expansion strategy, and operational risks.
+        </p>
+      </a>
+<!-- end copy here -->
+
+
       <a href="/works/canadagoose" class="card">
         <div class="card-content">
           <div class="card-meta">
