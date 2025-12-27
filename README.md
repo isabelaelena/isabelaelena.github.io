@@ -1,6 +1,6 @@
 # imtryingok
 
-learning how to code and use git
+learning how to vibe code and use git, building my portfolio website
 
 ## create-svelte
 
