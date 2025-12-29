@@ -12,7 +12,7 @@
       </h1>
       <body>
         <p>
-          Hi, I'm Elena. Currently working as a Product Manager in the public
+          Hi, I'm Elena. Currently working as a Product Manager for the public
           sector across North America.
         </p>
       </body>
@@ -37,7 +37,7 @@
       class="grid grid-cols-1 gap-4 pb-12 pt-2 sm:grid-cols-2 md:grid-cols-3">
 
 <!-- to add a card, copy starting here -->
-      <a href="/works/canadagoose" class="card">
+      <a href="/works/aicategorization" class="card">
         <div class="card-content">
           <div class="card-meta">
             <span class="card-tag">AI Experiment</span>
@@ -47,7 +47,7 @@
 
         <h3 class="card-title">Personal Finance: Auto Categorization</h3>
         <p class="card-desc">
-          Analysis of short and long term growth for Canada Goose; balancing brand equity, expansion strategy, and operational risks.
+          Experimented using Google Sheets's =AI() function to auto categorize transactions
         </p>
       </a>
 <!-- end copy here -->

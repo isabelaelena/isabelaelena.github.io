@@ -7,8 +7,8 @@ class="sticky top-0 z-20 w-full border-b bg-white/70 backdrop-blur supports-[bac
   <div class="padding">
     <ul class="w-full justify-end space-x-8 md:flex">
       <li class="mr-auto"><a href="/"><strong>Elena</strong></a></li>
-      <li><a href="/#works">Work</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="/#works" class="hover:italic">Work</a></li>
+      <li><a href="#contact" class="hover:italic">Contact</a></li>
     </ul>
   </div>
 </nav>
